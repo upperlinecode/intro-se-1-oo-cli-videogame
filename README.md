@@ -15,7 +15,7 @@ Below is a list of challenges - ways you could make this game a lot better. Befo
 
 2. Right now, the program is hard-coding each attack, but most videogames would probably render each entire fight as a whole object all its own.
   * In the game.rb file, define a `Battle` class, which initializes with two arguments (player1, player2).
-  * Define a method for a `Battle` called `start` that repeats until one of the two players reaches zero health. You'll probably want to use a `while` or an `until` loop.
+  * Define a `start` method for the Battle class that repeats until one of the two players reaches zero health. You'll probably want to use a `while` or an `until` loop.
   * If we do this successfully, we could run an entire battle with the following lines of code in our test.rb file:
   ```ruby
 
