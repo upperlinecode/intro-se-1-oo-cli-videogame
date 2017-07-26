@@ -6,7 +6,7 @@ The code in this repository is actually already a working game. The trouble is, 
 
 Below is a list of challenges - ways you could make this game a lot better. Before you look at those suggested ways to make the game better, consider what you notice about the game. Take a moment and write down everything you might do to make the game more fun, more fair, and more interesting.
 
-### Possible Improvements.
+### Possible Improvements
 
 1. Right now, you may notice that characters can reach negative health. Run the program a few times and you'll eventually see this happen.
     * Give the each player an instance variable called `@alive` that is a boolean which starts off set to `true`.
