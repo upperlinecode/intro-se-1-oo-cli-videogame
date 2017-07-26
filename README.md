@@ -50,7 +50,7 @@ Below is a list of challenges - ways you could make this game a lot better. Befo
     * Each player should probably also have an `@items` array where their items can be stored.
 ---
 
-8. Our Players can currently only attack each other. We should consider make an `Enemy` class to generate opponents for them. This class should have a lot of the same properties as a Player (like Strength, Name, etc.) but we should maybe also be able to stipulate how powerful that enemy is.
+8. Our Players can currently only attack each other. We should consider make an `Enemy` class to generate opponents for them. This class should have a lot of the same properties as a Player (like `@strength` and `@name` etc.) but we should maybe also be able to stipulate how powerful that enemy is.
     * For example, `Enemy.new("Goblin", 1)` would could create an enemy named Goblin that fights with similar strength to a level 1 player, and `Enemy.new("Troll", 7)` could be a more powerful enemy that's meant to be a challenge for a level 7 player.
 ---
 
