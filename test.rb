@@ -1,3 +1,4 @@
+# This line of code tells the test where to find the definitions of all the objects in the game.
 require_relative 'game.rb'
 
 puts "\n\n === Game Start ===\n\n"
