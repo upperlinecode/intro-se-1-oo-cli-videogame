@@ -39,7 +39,7 @@ Below is a list of challenges - ways you could make this game a lot better. Befo
 5. At the end of each fight, nothing happens to make the fight worthwhile. Should players get gold? Should they get experience points that contribute towards a level up?
 ---
 
-6. Right now, the players' stats are set in stone. If a player levels up, their stats should go up too.
+6. Right now, the players' stats are set in stone. If a player levels up, their stats should go up too. Let's write a more specific level_up method for our Player class that in some way increases player stats when they level up.
     * Now we've created *another* problem. If the main character levels up, the enemies get too easy. As you get more powerful, the enemies should too, right?
 ---
 
