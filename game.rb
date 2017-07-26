@@ -22,8 +22,11 @@ class Player
   end
 
   def attack(target)
+    ## With a CLI, we want to print out all the information our users need to play this game.
+    ## Let's show the attacker and defender's names here.
     puts("Player #{self.name} attacks #{target.name}!!!")
     puts("#{self.name}'s strength is #{self.strength} and target #{target.name}'s defense is #{target.defense}.")
+    ## The battle will go differently depending on who is stronger.
     if self.strength < target.defense
       puts("Due to the target's strong defense, the attack only does half damage...")
       damage = self.strength / 2
@@ -31,10 +34,11 @@ class Player
       puts("Since the target is weaker than you are, the attack does double damage!")
       damage = self.strength * 2
     else
-      puts("These players are evenly matched. The attack goes through as planned.")
+      puts("These players are evenly matched. The attack goes through normally.")
       damage = self.strength
     end
     target.health -= damage
+    ## Let's pring out the new totals so that we know the final results of the fight.
     puts("#{target.name} now has #{target.health}/#{target.max_health} health remaining.\n\n")
   end
 

@@ -10,6 +10,6 @@ lora = Player.new("LHines868")
 puts "Press enter to begin."
 gets.chomp
 
-## Run a sample round of attacks.
+## Have each player attack the other.
 jose.attack(lora)
 lora.attack(jose)
