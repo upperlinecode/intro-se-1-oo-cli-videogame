@@ -45,7 +45,5 @@ class Player
   ## All other methods you code for the player class will fit best below this line.
 
 
-
-  ## All other methods you code for the player class will fit best below this line.
 end
 ## Be careful not to code player methods outside the player class.
