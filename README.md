@@ -1,5 +1,7 @@
 # Play a Command-Line Video Game.
 
+*Fork and clone this repository to work on the code in your text editor and console*
+
 ### Try it out
 
 The code in this repository is actually already a working game. The trouble is, it's pretty boring. To see it run, type `ruby test.rb` in terminal and see what happens.
